@@ -454,48 +454,6 @@
                 Galaxy Server administration
             </a>
 </td>
-        <td><a href="/training-material//topics/admin/tutorials/monitoring/tutorial.html">
-            Galaxy Monitoring with Telegraf and Grafana
-            </a></td>
-      </tr>
-    
-            
-            
-      <tr>
-        <td>Jul 21, 2022</td>
-        <td style="text-align:right">
-            <a href="/training-material/topics/admin">
-                Galaxy Server administration
-            </a>
-</td>
-        <td><a href="/training-material//topics/admin/tutorials/cvmfs/tutorial.html">
-            Reference Data with CVMFS
-            </a></td>
-      </tr>
-    
-            
-            
-      <tr>
-        <td>Jul 21, 2022</td>
-        <td style="text-align:right">
-            <a href="/training-material/topics/admin">
-                Galaxy Server administration
-            </a>
-</td>
-        <td><a href="/training-material//topics/admin/tutorials/tool-management/tutorial.html">
-            Galaxy Tool Management with Ephemeris
-            </a></td>
-      </tr>
-    
-            
-            
-      <tr>
-        <td>Jul 21, 2022</td>
-        <td style="text-align:right">
-            <a href="/training-material/topics/admin">
-                Galaxy Server administration
-            </a>
-</td>
         <td><a href="/training-material//topics/admin/tutorials/tiaas/tutorial.html">
             Training Infrastructure as a Service (TIaaS)
             </a></td>
@@ -510,8 +468,36 @@
                 Galaxy Server administration
             </a>
 </td>
-        <td><a href="/training-material//topics/admin/tutorials/tus/tutorial.html">
-            Performant Uploads with TUS
+        <td><a href="/training-material//topics/admin/tutorials/monitoring/tutorial.html">
+            Galaxy Monitoring with Telegraf and Grafana
+            </a></td>
+      </tr>
+    
+            
+            
+      <tr>
+        <td>Jul 21, 2022</td>
+        <td style="text-align:right">
+            <a href="/training-material/topics/admin">
+                Galaxy Server administration
+            </a>
+</td>
+        <td><a href="/training-material//topics/admin/tutorials/ftp/tutorial.html">
+            Enable upload via FTP
+            </a></td>
+      </tr>
+    
+            
+            
+      <tr>
+        <td>Jul 21, 2022</td>
+        <td style="text-align:right">
+            <a href="/training-material/topics/admin">
+                Galaxy Server administration
+            </a>
+</td>
+        <td><a href="/training-material//topics/admin/tutorials/data-library/tutorial.html">
+            Data Libraries
             </a></td>
       </tr>
     
@@ -526,6 +512,20 @@
 </td>
         <td><a href="/training-material//topics/admin/tutorials/gxadmin/tutorial.html">
             Galaxy Monitoring with gxadmin
+            </a></td>
+      </tr>
+    
+            
+            
+      <tr>
+        <td>Jul 21, 2022</td>
+        <td style="text-align:right">
+            <a href="/training-material/topics/admin">
+                Galaxy Server administration
+            </a>
+</td>
+        <td><a href="/training-material//topics/admin/tutorials/reports/tutorial.html">
+            Galaxy Monitoring with Reports
             </a></td>
       </tr>
     
@@ -624,8 +624,8 @@ var tutorialsBar = new Chart(tutoBar, {
 // Chart displaying number of tutorials per topic
 var tutoBarTechnical = document.getElementById('tutorialsBarTechnical');
 
-var data_tutos = [0,22,30,0,6,0,0,22,0,42,16];
-var labels_topics = ["","Using Galaxy and Managing your Data","Foundations of Data Science","","Teaching and Hosting Galaxy training","","","Development in Galaxy","","Galaxy Server administration","Contributing to the Galaxy Training Material"];
+var data_tutos = [22,30,0,22,42,0,16,0,0,0,6];
+var labels_topics = ["Development in Galaxy","Foundations of Data Science","","Using Galaxy and Managing your Data","Galaxy Server administration","","Contributing to the Galaxy Training Material","","","","Teaching and Hosting Galaxy training"];
 
 var tutorialsBar = new Chart(tutoBarTechnical, {
   type: 'horizontalBar',
